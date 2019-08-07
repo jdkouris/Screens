@@ -28,6 +28,7 @@ class NumberedViewController: UIViewController {
         if let count = navigationController?.viewControllers.count {
             label.text = String(count)
 //            label.sizeToFit()
+            self.navigationController?.tabBarItem.badgeValue = String(count)
         }
     }
     
