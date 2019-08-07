@@ -36,11 +36,33 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Zuj-ra-Hjf"/>
                     </view>
-                    <navigationItem key="navigationItem" title="White" id="qV1-cr-1zW"/>
+                    <navigationItem key="navigationItem" title="White" id="qV1-cr-1zW">
+                        <barButtonItem key="rightBarButtonItem" title="Gray" id="ooc-hT-brv">
+                            <connections>
+                                <segue destination="kdQ-S2-6U9" kind="show" id="UwZ-Bl-McM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hkt-Zq-0fQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="488" y="218"/>
+        </scene>
+        <!--Gray-->
+        <scene sceneID="HNt-iZ-eed">
+            <objects>
+                <viewController id="kdQ-S2-6U9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Eq-nC-aAW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lrk-AE-jrF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Gray" id="dgd-Fv-fyG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="StK-lJ-uD8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1226" y="218"/>
         </scene>
     </scenes>
 </document>
