@@ -29,7 +29,6 @@
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9hc-3R-T2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="1XY-zy-mRy" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="487" y="-1114"/>
         </scene>
@@ -98,7 +97,7 @@
                         <rightBarButtonItems>
                             <barButtonItem title="Red" id="QRe-3y-Eyg">
                                 <connections>
-                                    <segue destination="1XY-zy-mRy" kind="unwind" unwindAction="unwindToRed:" id="bt0-k1-hii"/>
+                                    <segue destination="Eax-Yf-bbv" kind="unwind" unwindAction="unwindToRed:" id="xbA-fh-PSU"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem systemItem="done" id="SOk-14-94W">
@@ -110,6 +109,7 @@
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DNq-uK-RyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Eax-Yf-bbv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2828" y="-1429"/>
         </scene>
