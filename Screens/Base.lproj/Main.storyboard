@@ -71,11 +71,33 @@
                         <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="eih-Uh-wBn"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Blue" id="IB1-fT-pIr"/>
+                    <navigationItem key="navigationItem" title="Blue" id="IB1-fT-pIr">
+                        <barButtonItem key="rightBarButtonItem" title="Yellow" id="1y9-V5-ezy">
+                            <connections>
+                                <segue destination="K1Z-gG-v9b" kind="show" id="u1Z-g6-gsV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZk-Oo-HJy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2045" y="-1410"/>
+            <point key="canvasLocation" x="2045" y="-1429"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="tG7-3X-y6b">
+            <objects>
+                <viewController id="K1Z-gG-v9b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0mn-GE-CTc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="IQU-1M-Req"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yellow" id="wX3-dC-aZj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNq-uK-RyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2828" y="-1429"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0uF-vv-Qen">
@@ -160,11 +182,33 @@
                         <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6S2-Rl-wO8"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Purple" id="4uN-U9-EyF"/>
+                    <navigationItem key="navigationItem" title="Purple" id="4uN-U9-EyF">
+                        <barButtonItem key="rightBarButtonItem" title="Orange" id="BMO-0J-j6N">
+                            <connections>
+                                <segue destination="Xie-He-xCM" kind="show" id="oLC-Tr-Lsr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E0w-jF-rxv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2045" y="-765"/>
+        </scene>
+        <!--Orange-->
+        <scene sceneID="5pi-7m-aTc">
+            <objects>
+                <viewController id="Xie-He-xCM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zBp-e5-ONo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Apx-Pe-BXV"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Orange" id="kKe-ih-57M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uHU-Fc-JKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2828" y="-765"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nca-Nr-UmO">
