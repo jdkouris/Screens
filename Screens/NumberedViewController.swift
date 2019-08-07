@@ -27,7 +27,7 @@ class NumberedViewController: UIViewController {
         
         if let count = navigationController?.viewControllers.count {
             label.text = String(count)
-            label.sizeToFit()
+//            label.sizeToFit()
         }
     }
     
