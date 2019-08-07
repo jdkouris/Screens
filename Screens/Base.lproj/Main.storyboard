@@ -13,7 +13,7 @@
         <!--Red-->
         <scene sceneID="sl4-YM-GOt">
             <objects>
-                <viewController id="fCs-uV-oz7" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fCs-uV-oz7" customClass="RedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P2c-GH-Fuy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -93,7 +93,16 @@
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="IQU-1M-Req"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Yellow" id="wX3-dC-aZj"/>
+                    <navigationItem key="navigationItem" title="Yellow" id="wX3-dC-aZj">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Red" id="QRe-3y-Eyg"/>
+                            <barButtonItem systemItem="done" id="SOk-14-94W">
+                                <connections>
+                                    <action selector="doneTapped:" destination="K1Z-gG-v9b" id="DWd-se-qUB"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DNq-uK-RyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
